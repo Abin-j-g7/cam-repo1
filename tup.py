@@ -1,0 +1,8 @@
+a=(2,3,4,5,2,3,"abin")
+print(a)
+b=list(a)
+print(b)
+c=()
+print(type(c))
+print(a.count(2))
+print(a.index(2))

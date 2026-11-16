@@ -1,0 +1,6 @@
+num=int(input("enter the  num of rows:"))
+while 1<=num<=10:
+    for i in range(1,num+1):
+        print(num," ",end="")
+    num-=1
+    print()

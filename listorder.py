@@ -1,0 +1,6 @@
+a=list(map(int,input("enter the marks:").split()))
+print("the list is:",a)
+a.sort()
+print("the ascending order of the marks is:",a)
+a.sort(reverse=True)
+print("the descending order of the marks is:",a)
